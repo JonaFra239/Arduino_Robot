@@ -20,7 +20,7 @@ Der Roboter verfügt über zwei verschiedene Betriebsmodi:
 | ------------------- | --------------------------- |
 | STM32 NUCLEO-F446RE | Mikrocontroller             |
 | L298N               | Motorsteuerung              |
-| 2x Motoren          | Antrieb                     |
+| 4x Motoren          | Antrieb                     |
 | HC-SR04             | Ultraschall-Abstandsmessung |
 | 2x IR-Sensoren      | Linienerkennung             |
 | Taster              | Umschalten der Betriebsmodi |
@@ -90,6 +90,7 @@ Nach Modus 2 beginnt die Auswahl wieder bei Modus 0.
 | A1  | IR-Sensor rechts |
 | D2  | Taster           |
 
+Schaltplan unter "Schaltplan.jpg"
 ---
 
 ## 💻 Software
